@@ -22,7 +22,7 @@ The first full fixture run found that the natural-language planner treated the w
 - `docker compose up -d --build --wait`: backend and frontend images built; all five services healthy with PostgreSQL 16.
 - `python scripts/demo.py`: passed actual HTTP approval workflow, unauthorized approval rejection, REST execution and audit checks.
 - `npm run e2e`: **1 browser test passed** (Chromium, requester sign-in/submission, independent approver sign-in, approval/resume, completed tool audit). Screenshot saved as `docs/dashboard.png`.
-- GitHub CI: pending first push; local equivalents executed as listed above.
+- GitHub CI: [run 44603123585](https://github.com/KartikP12s/casepilot-service-agents/actions/runs/44603123585) passed, including Docker and Chromium checks on Ubuntu.
 
 ## Scope
 
