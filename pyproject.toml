@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "casepilot-service-agents"
+version = "0.1.0"
+description = "Durable human-guided service workflows with LangGraph"
+requires-python = ">=3.12"
+dependencies = ["fastapi>=0.115", "uvicorn>=0.34", "sqlalchemy>=2.0", "psycopg[binary]>=3.2", "langgraph>=1.0.10", "langgraph-checkpoint-sqlite>=3.0.1", "httpx>=0.28", "pydantic-settings>=2.7"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.11", "pip-audit>=2.9"]
+
+[tool.setuptools.packages.find]
+where = ["backend"]
+[tool.pytest.ini_options]
+pythonpath = ["backend"]
+testpaths = ["tests"]
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]

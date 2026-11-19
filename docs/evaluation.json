@@ -1,0 +1,91 @@
+{
+  "executed_at": "2026-11-19T19:37:56.582450+00:00",
+  "total": 200,
+  "categories": {
+    "ticket_creation": {
+      "passed": 20,
+      "failed": 0
+    },
+    "approval_required": {
+      "passed": 20,
+      "failed": 0
+    },
+    "approval_approved": {
+      "passed": 10,
+      "failed": 0
+    },
+    "approval_rejected": {
+      "passed": 10,
+      "failed": 0
+    },
+    "ticket_read": {
+      "passed": 5,
+      "failed": 0
+    },
+    "ticket_update": {
+      "passed": 3,
+      "failed": 0
+    },
+    "deactivation": {
+      "passed": 2,
+      "failed": 0
+    },
+    "missing_invalid_parameters": {
+      "passed": 15,
+      "failed": 0
+    },
+    "invalid_json_schema": {
+      "passed": 10,
+      "failed": 0
+    },
+    "unauthorized": {
+      "passed": 15,
+      "failed": 0
+    },
+    "prompt_injection": {
+      "passed": 15,
+      "failed": 0
+    },
+    "ambiguous": {
+      "passed": 10,
+      "failed": 0
+    },
+    "unexpected_intent": {
+      "passed": 10,
+      "failed": 0
+    },
+    "tool_timeout": {
+      "passed": 5,
+      "failed": 0
+    },
+    "tool_exception": {
+      "passed": 5,
+      "failed": 0
+    },
+    "invalid_tool_result": {
+      "passed": 5,
+      "failed": 0
+    },
+    "retry_recovery": {
+      "passed": 5,
+      "failed": 0
+    },
+    "duplicate_request": {
+      "passed": 5,
+      "failed": 0
+    },
+    "not_found": {
+      "passed": 10,
+      "failed": 0
+    },
+    "permission_escalation": {
+      "passed": 5,
+      "failed": 0
+    },
+    "natural_language_missing_fields": {
+      "passed": 15,
+      "failed": 0
+    }
+  },
+  "failures": []
+}
